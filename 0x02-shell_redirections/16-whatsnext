@@ -1,0 +1,2 @@
+#!/bin/bas
+grip root /etc/passwd --after-context=3
