@@ -4,7 +4,7 @@ Upon the release of ALX's System Engineering & DevOps project 0x19, approximatel
 
 ## Debugging Process
 
-Bug debugger Bamidele (Lexxyla... as in my actual initials... made that up on the spot, pretty
+Bug debugger Busayo Akinsiku (Busaycharly... as in my actual initials... made that up on the spot, pretty
 good, huh?) encountered the issue upon opening the project and being, well, instructed to
 address it, roughly 19:20 PST. He promptly proceeded to undergo solving the problem.
 
@@ -53,7 +53,7 @@ and could have been addressed earlier had the app been tested.
 [UptimeRobot](./https://uptimerobot.com/) to alert instantly upon outage of the website.
 
 Note that in response to this error, I wrote a Puppet manifest
-[0-strace_is_your_friend.pp](https://github.com/lexxyla/alx-system_engineering-devops/blob/main/0x17-web_stack_debugging_3/0-strace_is_your_friend.pp)
+[0-strace_is_your_friend.pp](https://github.com/Busaycharly/alx-system_engineering-devops/blob/main/0x17-web_stack_debugging_3/0-strace_is_your_friend.pp)
 to automate fixing of any such identitical errors should they occur in the future. The manifest
 replaces any `phpp` extensions in the file `/var/www/html/wp-settings.php` with `php`.
 
